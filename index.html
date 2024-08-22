@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <title>Challenge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <p class="header">
+            <img src="assets/Frame 6.png" alt="Logo Alura">
+        </p>
+    </header>
+    
+    <main class="main">
+        
+        <section class="main_pt2">
+            <textarea id="inserirTexto" class="main_pt2_digite" placeholder="Digite seu texto"></textarea>
+            <div class="main_pt2_botoes">
+                <button class="main_pt2_botoes_apertar1" onclick="cript()">Criptografar</button>
+                <button class="main_pt2_botoes_apertar2" onclick="descript()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="main_pt3_1">
+            <div id="feedbackVazio" class="main_pt3">
+                <img class="main_pt3_imagem" src="assets/NoMessage.png" alt="Nenhuma mensagem encontrada">
+                <h3 class="main_pt3_resultado">Nenhuma mensagem encontrada</h3>
+                <p class="main_pt3_resposta">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        <section>
+                <div id="resultado" class="main_pt3_final">
+                </div>
+        </section>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Vitor Hugo.</p>
+    </footer>
+</body>
+</html>
